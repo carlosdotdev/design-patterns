@@ -1,24 +1,26 @@
 import Member from "./Member";
 
 class SmithFamily {
-  private members: Array<any> = [];
-  private static instance = new SmithFamily();
+  private members: Array<Member> = [];
+  private static instance: SmithFamily = new SmithFamily();
 
   constructor() {
-    this.members.push(new Member("Ana"));
-    this.members.push(new Member("Helena"));
-    this.members.push(new Member("Pamela"));
+    const namesArr: Array<string> = ["Ana", "Helena", "Pamela"];
+
+    namesArr.forEach((name: string): void => {
+      this.members.push(new Member(name));
+    })
   }
 
   public static getInstance(): SmithFamily {
-    return this.instance;
+    return SmithFamily.instance;
   }
 
   public getMembers(): Array<Member> {
     return this.members;
   }
 
-  public getMemberByIndex(index: number): Member {
+  public getMemberByIndex(index: number): Member | null {
     const check01 = this.members.length > 0;
     const check02 = index > (this.members.length - 1);
 
