@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A quick design pattern examples.",
   "scripts": {
-    "singleton": "ts-node-dev singleton/main.ts"
+    "singleton": "ts-node-dev creational/singleton/main.ts"
   },
   "author": "carlosdotdev",
   "license": "MIT",
