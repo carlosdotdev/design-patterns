@@ -6,7 +6,7 @@ const secondObj = SmithFamily.getInstance();
 
 console.log(firstObj);
 
-const newMember = new Member("Wanessa")
+const newMember = new Member("Wanessa");
 
 firstObj.addMember(newMember);
 
