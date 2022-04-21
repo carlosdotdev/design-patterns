@@ -1,7 +1,6 @@
 # design-patterns
 A quick design pattern examples.
 
-#
 ### Creational
 - [X] Singleton
 - [ ] Factory Method
