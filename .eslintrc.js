@@ -18,6 +18,6 @@ module.exports = {
   "rules": {
     "semi": [2, "always"],
     "linebreak-style": ["error", "unix"],
-    "indent": ["error", 2]
+    "indent": ["error", 2, { SwitchCase: 1 }]
   }
 };
