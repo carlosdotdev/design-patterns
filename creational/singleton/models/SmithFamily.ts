@@ -4,7 +4,7 @@ class SmithFamily {
   private members: Array<Member> = [];
   private static instance: SmithFamily = new SmithFamily();
 
-  constructor() {
+  private constructor() {
     const namesArr: Array<string> = ["Ana", "Helena", "Pamela"];
 
     namesArr.forEach((name: string): void => {
