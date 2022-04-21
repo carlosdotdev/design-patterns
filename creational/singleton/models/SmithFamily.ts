@@ -22,9 +22,10 @@ class SmithFamily {
 
   public getMemberByIndex(index: number): Member | null {
     const check01 = this.members.length > 0;
-    const check02 = index > (this.members.length - 1);
+    const check02 = index <= (this.members.length - 1);
+    const check03 = index > 0;
 
-    return (check01 && check02) ? this.members[index] : null;
+    return (check01 && check02 && check03) ? this.members[index] : null;
   }
 
   public setMembers(members: Array<Member>): void {
