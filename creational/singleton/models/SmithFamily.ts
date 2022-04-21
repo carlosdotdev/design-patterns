@@ -9,7 +9,7 @@ class SmithFamily {
 
     namesArr.forEach((name: string): void => {
       this.members.push(new Member(name));
-    })
+    });
   }
 
   public static getInstance(): SmithFamily {
