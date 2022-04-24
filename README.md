@@ -4,7 +4,7 @@ A quick design pattern examples.
 ### Creational
 - [X] Singleton
 - [X] Factory Method
-- [ ] Abstract Factory
+- [X] Abstract Factory
 - [ ] Builder
 - [ ] Prototype
 ### Structural
