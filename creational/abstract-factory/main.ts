@@ -1,8 +1,8 @@
-import LuxuryVehicleAbstractFactory from "./vehicle-company/factories/LuxuryVehicleAbstractFactory";
-import RegularVehicleAbstractFactory from "./vehicle-company/factories/RegularVehicleAbstractFactory";
-import VehicleAbstractFactoryInterface from "./vehicle-company/factories/VehicleAbstractFactoryInterface";
-import CarInterface from "./vehicle-company/products/cars/CarInterface";
-import MotorcycleInterface from "./vehicle-company/products/motorcycles/MotorcycleInterface";
+import LuxuryVehicleAbstractFactory from "./vehicle-company/factory/LuxuryVehicleAbstractFactory";
+import RegularVehicleAbstractFactory from "./vehicle-company/factory/RegularVehicleAbstractFactory";
+import VehicleAbstractFactoryInterface from "./vehicle-company/factory/VehicleAbstractFactoryInterface";
+import CarInterface from "./vehicle-company/product/car/CarInterface";
+import MotorcycleInterface from "./vehicle-company/product/motorcycle/MotorcycleInterface";
 
 // get car or motorcycle expensive
 const factory01: VehicleAbstractFactoryInterface = new LuxuryVehicleAbstractFactory();
