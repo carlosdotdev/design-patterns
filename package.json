@@ -4,7 +4,8 @@
   "description": "A quick design pattern examples.",
   "scripts": {
     "singleton": "ts-node-dev creational/singleton/main.ts",
-    "factory-method": "ts-node-dev creational/factory-method/main.ts"
+    "factory-method": "ts-node-dev creational/factory-method/main.ts",
+    "abstract-factory": "ts-node-dev creational/abstract-factory/main.ts"
   },
   "author": "carlosdotdev",
   "license": "MIT",
