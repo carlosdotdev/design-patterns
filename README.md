@@ -5,7 +5,7 @@ A quick design pattern examples.
 - [X] Singleton
 - [X] Factory Method
 - [X] Abstract Factory
-- [ ] Builder
+- [X] Builder
 - [ ] Prototype
 ### Structural
 - [ ] Adapter
